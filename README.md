@@ -28,22 +28,35 @@ suivre la documentation : https://docs.docker.com/engine/install/debian/
   > cd PROJET-ELK
 - On va créer les volumes pour nos conteneurs docker :
 
-Volume pour elasticsearch :
+**Volume pour elasticsearch :**
 >mkdir -p elastic
+****
 >chmod 777 elastic
+****
 >cd elastic
+****
 >mkdir -p data_elastic
+****
 >chmod data_elastic
-Volume pour logstash :
+
+**Volume pour logstash :**
 >mkdir -p logstash
+****
 >chmod 777 logstash
+****
 >cd logstash
+****
 >mkdir -p ls_data
+****
 >chmod 777 ls_data
-Volume pour Kibana :
+**Volume pour Kibana :**
 >mkdir -p kibana
+****
 >chmod 777 kibana
+****
 >cd kinana
+****
 >mkdir -p kb_data
+****
 >chmod 777 kb_data
 
