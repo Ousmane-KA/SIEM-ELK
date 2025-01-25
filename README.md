@@ -17,3 +17,8 @@ Elle collecte des journaux et événements de multiples sources (serveurs, appli
 **Logstash** : Traite, transforme et enrichit les données entrantes avant de les envoyer à Elasticsearch pour stockage et indexation.
 
 **Elasticsearch** : Stocke et indexe les données, tandis que **Kibana** fournit une interface pour visualiser, analyser et interagir avec ces données.
+
+## A) Mise en place du Stack ELK : 
+
+- Il faudra installer docker et docker compose :
+suivre la documentation : https://docs.docker.com/engine/install/debian/
