@@ -37,7 +37,7 @@ suivre la documentation : https://docs.docker.com/engine/install/debian/
 ****
 >mkdir -p data_elastic
 ****
->chmod data_elastic
+>chmod 777 data_elastic
 
 **Volume pour logstash :**
 >mkdir -p logstash
