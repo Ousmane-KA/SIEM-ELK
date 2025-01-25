@@ -60,3 +60,6 @@ suivre la documentation : https://docs.docker.com/engine/install/debian/
 ****
 >chmod 777 kb_data
 
+### Configuration de elasticsearch:
+### Conguiration de kibana : 
+
