@@ -44,17 +44,24 @@ suivre la documentation : https://docs.docker.com/engine/install/debian/
 ### a) Configuration de elasticsearch:
 
 On va créer un fichier de configuration qu'on va nommer logstash.conf
+****
 >cd logstash
 >nano logstash.yml
-On copie le contenu du fichier logstash.conf et on enregistre.
+*****
+- On copie le contenu du fichier logstash.conf et on enregistre.
 
 ### b) Configuration de logstash:
 
-On va créer un fichier de configuration qu'on va nommer logstash.yml
->cd logstash.yml
->nano logstash.yml
-On copie le contenu du fichier logstash.yml et on enregistre.
+On va créer un fichier de configuration qu'on va nommer logstash.conf
+****
+>cd logstash
+>nano logstash.conf
+****
+On copie le contenu du fichier logstash.conf et on enregistre.
 
 
 ### c) Conguiration de kibana : 
+### d) Implémentation du docker compose : 
+> Au niveau de la racine du projet on va créer un fichier docker-compose.yml
+> Voir le fichier de docker compose : 
 
