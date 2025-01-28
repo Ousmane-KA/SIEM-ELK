@@ -33,34 +33,28 @@ suivre la documentation : https://docs.docker.com/engine/install/debian/
 ****
 >chmod 777 elastic
 ****
->cd elastic
-****
->mkdir -p data_elastic
-****
->chmod 777 data_elastic
 
 **Volume pour logstash :**
 >mkdir -p logstash
 ****
 >chmod 777 logstash
+
 ****
->cd logstash
-****
->mkdir -p ls_data
-****
->chmod 777 ls_data
-**Volume pour Kibana :**
->mkdir -p kibana
-****
->chmod 777 kibana
-****
->cd kinana
-****
->mkdir -p kb_data
-****
->chmod 777 kb_data
 
 ### a) Configuration de elasticsearch:
+
+On va créer un fichier de configuration qu'on va nommer logstash.conf
+>cd logstash
+>nano logstash.yml
+On copie le contenu du fichier logstash.conf et on enregistre.
+
 ### b) Configuration de logstash:
+
+On va créer un fichier de configuration qu'on va nommer logstash.yml
+>cd logstash.yml
+>nano logstash.yml
+On copie le contenu du fichier logstash.yml et on enregistre.
+
+
 ### c) Conguiration de kibana : 
 
